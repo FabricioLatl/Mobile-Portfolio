@@ -7,7 +7,7 @@ body {
   line-height: 1.5;
   color: #fff;
   background: hsl(0, 2%, 24%);
-  background-image:url("../images/art.svg");
+  background-image: url("../images/art.svg");
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -73,7 +73,6 @@ img {
   display: flex;
   position: absolute;
   width: 100%;
- 
 }
 
 .intro > p {
@@ -88,7 +87,6 @@ img {
 .intro {
   flex: 1;
   padding: 16px;
-
 }
 
 .name {
