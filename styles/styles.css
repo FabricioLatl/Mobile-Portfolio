@@ -7,6 +7,10 @@ body {
   line-height: 1.5;
   color: #fff;
   background: hsl(0, 2%, 24%);
+  background-image:url("../images/art.svg");
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 * {
@@ -37,7 +41,6 @@ body {
 .main-header {
   background: #fff;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
-  background-image:url("../images/art.svg")
 }
 
 img {
@@ -68,7 +71,9 @@ img {
 
 .body-container {
   display: flex;
+  position: absolute;
   width: 100%;
+ 
 }
 
 .intro > p {
@@ -83,6 +88,7 @@ img {
 .intro {
   flex: 1;
   padding: 16px;
+
 }
 
 .name {
@@ -97,10 +103,6 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
-  .body-container {
-    display: grid;
-  }
-
   .intro {
     display: block;
     padding: 16px;
