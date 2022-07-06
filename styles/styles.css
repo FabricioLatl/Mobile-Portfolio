@@ -89,6 +89,17 @@ img {
   padding: 16px;
 }
 
+.socials {
+  display: flex;
+  list-style-type: none;
+}
+
+.socials > li {
+  min-width: 5em;
+  min-height: 3em;
+  margin: 5%;
+}
+
 .name {
   color: #f55800;
   font-weight: 400;
