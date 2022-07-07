@@ -70,7 +70,7 @@ img {
 }
 
 .body-container {
-  display: flex;
+  display: grid;
   position: absolute;
   width: 100%;
 }
