@@ -6,7 +6,7 @@ body {
   font-size: 1em;
   line-height: 1.5;
   color: #fff;
-  background: hsl(0, 2%, 24%);
+  background: #000000;
   background-image: url("../images/art.svg");
   background-position: 50% 0;
   background-repeat: no-repeat;
@@ -19,6 +19,13 @@ body {
 
 .mh-logo {
   margin: 0 0 -10px;
+  font-family: 'inter';
+}
+
+.mh-logo a {
+  text-decoration: none;
+  color: #fff;
+  font-size: larger;
 }
 
 .main-nav a {
@@ -26,7 +33,6 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #3e3c3c;
   text-decoration: none;
   display: inline-block;
   padding: 0.5em 1.5em;
@@ -39,7 +45,7 @@ body {
 }
 
 .main-header {
-  background: #fff;
+  background: #3e3c3c;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -86,24 +92,30 @@ img {
 
 .intro {
   flex: 1;
-  padding: 16px;
+ 
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .socials {
   display: flex;
   list-style-type: none;
+  margin-top: 0;
 }
 
 .socials > li {
-  min-width: 5em;
-  min-height: 3em;
+  min-width: 1.3em;
+
   margin: 5%;
+  margin-top: 0;
 }
 
 .name {
   color: #f55800;
-  font-weight: 400;
-  font-size: 500%;
+  font-weight: 650;
+  font-size: 450%;
+  line-height: normal;
+  font-family: 'Crete Round';
 }
 
 .art {
