@@ -6,7 +6,7 @@ body {
   font-size: 1em;
   line-height: 1.5;
   color: #fff;
-  background: #000000;
+  background: #000;
   background-image: url("../images/art.svg");
   background-position: 50% 0;
   background-repeat: no-repeat;
@@ -19,7 +19,7 @@ body {
 
 .mh-logo {
   margin: 0 0 -10px;
-  font-family: 'inter';
+  font-family: 'inter', sans-serif;
 }
 
 .mh-logo a {
@@ -92,7 +92,6 @@ img {
 
 .intro {
   flex: 1;
- 
   padding-bottom: 0;
   margin-bottom: 0;
 }
@@ -105,7 +104,6 @@ img {
 
 .socials > li {
   min-width: 1.3em;
-
   margin: 5%;
   margin-top: 0;
 }
@@ -115,7 +113,7 @@ img {
   font-weight: 650;
   font-size: 450%;
   line-height: normal;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
 }
 
 .art {
