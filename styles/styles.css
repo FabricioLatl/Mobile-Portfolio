@@ -7,10 +7,10 @@ body {
   line-height: 1.5;
   color: #fff;
   background: #000;
-  background-image: url("../images/art.svg");
-  background-position: 50% 0;
+  background-size: 70%;
+  background-position: 193% -193%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("../images/art.svg");
 }
 
 * {
@@ -59,7 +59,8 @@ img {
 }
 
 .container {
-  width: 960px;
+  width: auto;
+  height: 93px;;
   max-width: 100%;
   padding: 20px;
   margin: 0 auto;
@@ -83,14 +84,18 @@ img {
   margin-top: 15%;
 }
 
-.intro > p {
-  font-weight: 400;
+.intro  p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
 }
 
 .intro h3 {
-  font-weight: 400;
+  font-family: 'Roboto', serif;
+  font-weight: 700;
   font-size: 150%;
   color: #fff5e1;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .intro {
@@ -114,10 +119,11 @@ img {
 
 .name {
   color: #f55800;
-  font-weight: 650;
+  font-weight: 400;
   font-size: 350%;
   line-height: normal;
   font-family: 'Crete Round', sans-serif;
+  margin-bottom: 0;
 }
 
 .art {
