@@ -342,6 +342,7 @@ img {
 .dividing-line {
   margin-top: 60%;
 }
+
 @media only screen and (max-width: 768px) {
   .intro {
     display: block;
