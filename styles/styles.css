@@ -170,11 +170,27 @@ img {
 
 .about-me-container {
   display: grid;
-  background-color: #3e3c3c;
+  background-color: #1c1a19;
   color: #fff;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-image: url(../images/Frame.png);
+  background-repeat: no-repeat;
+  background-position: 107% 28%;
 }
+
 .about-me-title {
   color: #f55800;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+}
+
+.about-me-title p {
+  margin-bottom: 5%;
 }
 
 .recent-works-title h2 {
@@ -224,6 +240,7 @@ img {
   display: flex;
   list-style: none;
   padding: 0;
+  padding-left: 7px;
 }
 
 .technologies-used-recent-works li {
@@ -248,7 +265,53 @@ img {
   color: #fff;
 }
 
+.see-project-button-full {
+  border: none;
+  height: 150%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background: #ff6b00;
+  color: #fff;
+  padding: 10px 0px;
+}
 
+.spacer {
+  min-height: 20%;
+  min-width: 100%;
+  content: '.';
+  visibility: hidden;
+}
+
+.about-me-list {
+  display: grid;
+  justify-content: center;
+  margin-top: 45%;
+}
+
+.about-me-list p {
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: 0;
+}
+
+.about-me-list ul {
+  list-style: none;
+}
+
+.about-me-list li {
+  padding: 10px 0px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+}
 @media only screen and (max-width: 768px) {
   .intro {
     display: block;
