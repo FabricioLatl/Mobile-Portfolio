@@ -138,10 +138,36 @@ img {
   justify-items: center;
 }
 
+.recent-works-ul {
+  padding: 10%;
+}
+
 .recent-works {
   display: flex;
   flex-direction: column;
+  background-image: url(../images/placeholder2.png);
+  background-repeat: no-repeat;
+  background-size: 386px 326px;
+  background-position: 45% 53%;
 }
+
+.recent-works h3 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 32px;
+  font-family: 'Crete Round', sans-serif;
+  margin-top: 64px;
+  padding-left: 16px;
+}
+
+.recent-works p {
+  color: #fff;
+  font-weight: 200;
+  font-size: 16px;
+  font-family: 'Crete Round', sans-serif;
+  padding-left: 16px;
+}
+
 .about-me-container {
   display: grid;
   background-color: #3e3c3c;
@@ -174,8 +200,9 @@ img {
 
 .multi-post-stories-div p {
   font-family: 'inter', sans-serif;
+  font-style: normal;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 2;
   line-height: 24px;
 }
 
@@ -193,6 +220,21 @@ img {
   padding: 8px 10px;
 }
 
+.technologies-used-recent-works {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.technologies-used-recent-works li {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.24);
+  font-size: small;
+  margin: 3%;
+  font-size: 15px;
+  padding: 8px 10px;
+}
+
 .see-project-button {
   border: none;
   width: 40%;
@@ -205,6 +247,8 @@ img {
   background: #ff6b00;
   color: #fff;
 }
+
+
 @media only screen and (max-width: 768px) {
   .intro {
     display: block;
