@@ -191,7 +191,19 @@ img {
   border: 1px solid;
   font-size: 15px;
   padding: 8px 10px;
- 
+}
+
+.see-project-button {
+  border: none;
+  width: 40%;
+  height: 130%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background: #ff6b00;
+  color: #fff;
 }
 @media only screen and (max-width: 768px) {
   .intro {
