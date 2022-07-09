@@ -176,7 +176,7 @@ img {
   padding-right: 10%;
   background-image: url(../images/Frame.png);
   background-repeat: no-repeat;
-  background-position: 107% 28%;
+  background-position: 107% 19%;
 }
 
 .about-me-title {
@@ -298,6 +298,19 @@ img {
   font-size: 32px;
   line-height: 44px;
   margin-bottom: 0;
+  margin-left: 15px;
+}
+
+.about-me-title-list{
+  display: flex;
+  align-items: baseline;
+}
+
+.rombo {
+  width: 18px;
+  height: 18px;
+  background: #ff6b00;
+  transform: rotate(-45deg);
 }
 
 .about-me-list ul {
@@ -312,6 +325,20 @@ img {
   font-size: 22px;
   line-height: 43px;
 }
+
+.circle {
+  height: 18px;
+  width: 18px;
+  background-color: #ff6b00;
+  border-radius: 50%;
+}
+
+.square {
+  height: 18px;
+  width: 18px;
+  background-color: #ff6b00;
+  margin-right: 15px;
+}
 @media only screen and (max-width: 768px) {
   .intro {
     display: block;
@@ -323,3 +350,4 @@ img {
     width: 100%;
   }
 }
+
