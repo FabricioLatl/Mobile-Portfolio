@@ -218,7 +218,7 @@ img {
   font-family: 'inter', sans-serif;
   font-style: normal;
   font-size: 16px;
-  font-weight: 2;
+  font-weight: 700;
   line-height: 24px;
 }
 
@@ -232,7 +232,7 @@ img {
   margin: 3%;
   border: 1px solid;
   font-size: 15px;
-  padding: 8px 10px;
+  padding: 0 15px;
 }
 
 .technologies-used-recent-works {
@@ -252,15 +252,16 @@ img {
 
 .see-project-button {
   border: none;
-  width: 40%;
-  height: 130%;
+  width: 48%;
+  height: 230%;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
+  font-weight: 600;
+  font-size: 19px;
   line-height: 24px;
   background: #ff6b00;
   color: #fff;
+  margin-left: 3%;
 }
 
 .see-project-button-full {
@@ -286,7 +287,7 @@ img {
 .about-me-list {
   display: grid;
   justify-content: center;
-  margin-top: 45%;
+  justify-items: center;
 }
 
 .about-me-list p {
@@ -338,6 +339,9 @@ img {
   margin-right: 15px;
 }
 
+.dividing-line {
+  margin-top: 60%;
+}
 @media only screen and (max-width: 768px) {
   .intro {
     display: block;
