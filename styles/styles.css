@@ -366,7 +366,7 @@ img {
 .contact-form-title {
   align-items: center;
   color: #000;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bolder;
   font-size: 32px;
@@ -379,7 +379,6 @@ img {
 
 textarea {
   border: none;
-  background-color: transparent;
   outline: none;
   background: #fbf8f7;
   height: 100px;
