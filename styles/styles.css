@@ -354,3 +354,55 @@ img {
     width: 100%;
   }
 }
+
+.contact-form {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.contact-form-title {
+  align-items: center;
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 30%;
+}
+
+textarea {
+  border: none;
+  outline: none;
+  background: #fbf8f7;
+  height: 100px;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+}
+
+.form-container button {
+  margin-top: 5%;
+  align-self: center;
+  border: none;
+  height: 150%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background: #ff6b00;
+  color: #fff;
+  padding: 10px 0;
+  width: 35%;
+}
