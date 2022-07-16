@@ -553,9 +553,42 @@ input {
 
   .see-project-button {
     width: 30%;
+    min-height: 9%;
   }
 
   .dividing-line {
-    margin-top: 0;
+    margin-top: 10%;
   }
+
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+  }
+  
+  .about-me-paragraph {
+    font-size: 27px;
+    font-family: 'Inter', sans-serif;    
+    font-weight: 400;
+  }
+
+  .about-me-title {
+    font-size: 90px;
+  }
+
+  .about-me-container {
+    background-image: url("../images/background2.png");
+    background-position: 100% 0%;
+    background-size: 50%;
+  }
+
+  .dividing-line-2 {
+    margin-top: 15%;
+  }
+
+  .about-me-list {
+    display: flex;
+    justify-content: space-around;
+  }
+
 }
