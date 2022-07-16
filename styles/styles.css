@@ -423,10 +423,11 @@ input {
   padding: 10px 0;
   width: 35%;
 }
-/*DESKTOP VERSION*/
+
+/* DESKTOP VERSION */
 
 @media only screen and (min-width: 768px) {
-  .body-container{
+  .body-container {
     background-image: url("../images/art.svg");
     background-position: 100% 0%;
     background-repeat: no-repeat;
@@ -454,6 +455,10 @@ input {
     margin-right: 8%;
     margin-left: 8%;
   }
+  
+  img {
+    min-width: 2em;
+  }
 
   .main-nav-list img {
     min-width: 2em;
@@ -463,7 +468,7 @@ input {
   .main-nav-list a {
     text-decoration: none;
     color: #fff;
-    font-family: 'Inter';
+    font-family: 'Inter' sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -481,13 +486,13 @@ input {
     padding-bottom: 30%;
     align-items: center;
   }
-  
+
   .socials {
     flex-direction: column;
     padding-right: 5%;
     padding-left: 5%;
   }
-  
+
   .socials li {
     margin-top: 150%;
   }
@@ -516,7 +521,7 @@ input {
     display: flex;
     align-items: flex-end;
     margin-left: 15%;
-    white-space: nowrap
+    white-space: nowrap;
   } 
 
   .multi-post-line {
@@ -526,15 +531,11 @@ input {
     margin: auto;
   }
 
-  .recent-works-container{
+  .recent-works-container {
     display: flex;
     flex-direction: column;
   }
 
-  img {
-    min-width: 2em;
-  }
-  
   .multi-post-stories-div {
     padding-right: 10%;
     margin-left: 2%;
@@ -565,10 +566,10 @@ input {
     flex-direction: column;
     max-width: 50%;
   }
-  
+
   .about-me-paragraph {
     font-size: 27px;
-    font-family: 'Inter', sans-serif;    
+    font-family: 'Inter', sans-serif;  
     font-weight: 400;
   }
 
@@ -610,7 +611,7 @@ input {
     min-width: 100%;
     max-height: 80%;
   }
- 
+
   textarea {
     height: 120px;
     width: 650px;
@@ -625,5 +626,4 @@ input {
     padding: 3%;
     padding-bottom: 5%;
   }
-
 }
