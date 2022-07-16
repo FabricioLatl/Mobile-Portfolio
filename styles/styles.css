@@ -164,7 +164,7 @@ img {
   padding-left: 16px;
 }
 
-.intro-container{
+.intro-container {
   display: flex;
   flex-direction: column-reverse;
 }
@@ -210,19 +210,61 @@ img {
   font-weight: 400;
 }
 
+.multi-post-stories-div p {
+  font-family: 'inter', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.multi-post-stories-div li {
+  margin: 3%;
+  border: 1px solid;
+  font-size: 15px;
+  padding: 0 15px;
+}
+
+.technologies-used-recent-works li {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.24);
+  margin: 3%;
+  font-size: 15px;
+  padding: 8px 10px;
+}
+
+.about-me-list p {
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+.about-me-list li {
+  padding: 10px 0;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+}
+
 #recent-works-1 {
   background-image: url("../images/placeholder3.png");
 }
 
-#recent-works-1 p{
+#recent-works-1 p {
   color: #000;
 }
 
-#recent-works-1 h3{
+#recent-works-1 h3 {
   color: #000;
 }
 
-#recent-works-1 li{
+#recent-works-1 li {
   color: #000;
 }
 
@@ -243,25 +285,10 @@ img {
   margin: 5%;
 }
 
-.multi-post-stories-div p {
-  font-family: 'inter', sans-serif;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
-}
-
 .multi-post-stories-div ul {
   display: flex;
   list-style: none;
   padding: 0;
-}
-
-.multi-post-stories-div li {
-  margin: 3%;
-  border: 1px solid;
-  font-size: 15px;
-  padding: 0 15px;
 }
 
 .technologies-used-recent-works {
@@ -269,14 +296,6 @@ img {
   list-style: none;
   padding: 0;
   padding-left: 7px;
-}
-
-.technologies-used-recent-works li {
-  color: #fff;
-  background: rgba(255, 255, 255, 0.24);
-  margin: 3%;
-  font-size: 15px;
-  padding: 8px 10px;
 }
 
 .see-project-button {
@@ -319,16 +338,6 @@ img {
   justify-items: center;
 }
 
-.about-me-list p {
-  font-family: 'InaiMathi', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  margin-bottom: 0;
-  margin-left: 15px;
-}
-
 .about-me-title-list {
   display: flex;
   align-items: baseline;
@@ -343,15 +352,6 @@ img {
 
 .about-me-list ul {
   list-style: none;
-}
-
-.about-me-list li {
-  padding: 10px 0;
-  font-family: 'Inter', serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
 }
 
 .circle {
