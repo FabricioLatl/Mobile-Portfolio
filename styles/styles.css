@@ -591,4 +591,39 @@ input {
     justify-content: space-around;
   }
 
+  .contact-form {
+    flex-direction: row;
+  }
+
+  .contact-form-title {
+    max-width: 52%;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 15%;
+    padding-bottom: 20%;
+  }
+
+  #contact-form {
+    margin-top: 40%;
+    display: grid;
+    flex-direction: column;
+    min-width: 100%;
+    max-height: 80%;
+  }
+ 
+  textarea {
+    height: 120px;
+    width: 650px;
+  }
+
+  .contact-form button {
+    align-content: center;
+    min-width: fit-content;
+    min-height: fit-content;
+    height: 24px;
+    width: 94px;
+    padding: 3%;
+    padding-bottom: 5%;
+  }
+
 }
