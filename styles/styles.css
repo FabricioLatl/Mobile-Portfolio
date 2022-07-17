@@ -6,11 +6,15 @@ body {
   font-size: 1em;
   line-height: 1.5;
   color: #fff;
-  background: #000;
+  background: #1c1a19;
   background-size: 70%;
   background-position: 219% -116%;
   background-repeat: no-repeat;
   background-image: url("../images/art.svg");
+}
+
+html { 
+  overflow-x: hidden;
 }
 
 .desktop-buttons {
@@ -301,7 +305,7 @@ img {
 .see-project-button {
   border: none;
   width: 48%;
-  height: 230%;
+  height: 10%;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -310,6 +314,16 @@ img {
   background: #ff6b00;
   color: #fff;
   margin-left: 3%;
+}
+
+.see-project-button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.see-project-button:focus {
+  background: #e05304;
 }
 
 .see-project-button-full {
@@ -323,6 +337,16 @@ img {
   background: #ff6b00;
   color: #fff;
   padding: 10px 0;
+}
+
+.see-project-button-full:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.see-project-button-full:focus {
+  background: #e05304;
 }
 
 .spacer {
@@ -426,7 +450,11 @@ input {
 
 /* DESKTOP VERSION */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
+  body {
+    background-color: #1c1a19;
+  }
+
   .body-container {
     background-image: url("../images/art.svg");
     background-position: 100% 0%;
@@ -518,6 +546,7 @@ input {
   }
 
   .recent-works-title {
+    margin-top: 7%;
     display: flex;
     align-items: flex-end;
     margin-left: 15%;
@@ -601,19 +630,22 @@ input {
     font-weight: 800;
     margin-top: 15%;
     padding-bottom: 20%;
+    text-align: left;
   }
 
   #contact-form {
-    margin-top: 40%;
+    margin-top: 30%;
     display: grid;
     flex-direction: column;
     min-width: 100%;
     max-height: 80%;
+    padding: 0;
   }
 
   textarea {
     height: 120px;
     width: 650px;
+    background-color: #FBF8F7;
   }
 
   .contact-form button {
@@ -624,5 +656,11 @@ input {
     width: 94px;
     padding: 3%;
     padding-bottom: 5%;
+  }
+
+  .contact-form button:hover {
+    background: #fff5e1;
+    border: 1px solid #f55800;
+    color: #f55800;
   }
 }
