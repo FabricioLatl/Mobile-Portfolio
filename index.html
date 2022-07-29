@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <title>Fabricio La Torre</title>
 </head>
@@ -21,17 +21,40 @@
                 
             </h1>
     
-              <h1 class="button">
-                  <a href="#"><img alt="hambutton" src="./images/hambutton.svg"></a>
-              </h1>
+             
+              <div class="desktop-buttons">
+                <ul class="main-nav-list">
+                  <li>
+                      <a href="#">Portfolio</a>
+                  </li>
+                  <li>
+                      <a href="#">About</a>
+                  </li>
+                  <li>
+                      <a href="#">Contact</a>
+                  </li>
+                  <li>
+                      <a href="#"><img src="images/mail.svg" alt=""></a>
+                  </li>
+              </ul>
+              </div>
+              <div class="ham-button">
+                <a href="#"><img alt="hambutton" src="./images/hambutton.svg"></a>
+            </div>
         </div>
 
     </header>
 
 
     <section class="body-container">
-   
 
+   
+      <section class="intro-container">
+        <ul class="socials">
+          <li><a href='https://github.com/FabricioLatl/'><img alt="github" src='images/github.svg' /></a></li>
+          <li><a href='https://www.linkedin.com/in/fabriciolatl/'><img alt="linkedin" src='images/linkedin.svg' /></a></li> 
+          <li><a href='https://twitter.com/Wafer_lt'><img alt="twitter" src='images/twitter.svg' /></a></li>
+        </ul>
       <ul class="intro">
         <li>
           <h1 class="name">
@@ -48,20 +71,19 @@
       
         
       </ul>
-      <ul class="socials">
-        <li><a href='https://github.com/FabricioLatl/'><img alt="github" src='images/github.svg' /></a></li>
-        <li><a href='https://www.linkedin.com/in/fabriciolatl/'><img alt="linkedin" src='images/linkedin.svg' /></a></li> 
-        <li><a href='https://twitter.com/Wafer_lt'><img alt="twitter" src='images/twitter.svg' /></a></li>
-      </ul>
+     
+
+    </section>
 
       <section class="recent-works-container">
         <div class="recent-works-title">
             <h2>My recent Works</h2>
-            <svg viewBox="0 0 100 10" xmlns="http://www.w3.org/2000/svg">
-              <line x1="0" y1="0" x2="100" y2="0" stroke="black" />
+            <svg class="multi-post-line" viewBox="0 0 100 10" xmlns="http://www.w3.org/2000/svg">
+              <line x1="5" y1="5" x2="80" y2="5" stroke="black" stroke-width="0.1"/>
             
             </svg>
         </div>
+        <div class="multi-post-stories-container">
         <div class="multi-post-stories-img-div">
           <img src="./images/placeholder1.png" alt="placeholder image 1">
         </div>
@@ -88,9 +110,9 @@
           </ul>
           <button type="submit" class="see-project-button">See Project</button>
         </div>
-
+        </div>
         <ul class="recent-works-ul">
-          <li class="recent-works">
+          <li class="recent-works" id="recent-works-1">
             <h3>
               Profesional Art Printing Data
             </h3>
@@ -112,7 +134,7 @@
             </button>
           </li>
          
-          <li class="recent-works">
+          <li class="recent-works" id="recent-works-2">
             <h3>
               Profesional Art Printing Data
             </h3>
@@ -227,24 +249,27 @@
 
 
       <section class="about-me-container">
-        
+        <div class="about-me">
         <div class="about-me-title">
      
           <p>About Me</p>
         </div>
-        <p> 
+        <p class="about-me-paragraph"> 
           Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
         </p>
   
         <button type="submit" class="see-project-button">Get My Resume</button>
 
         <div class="spacer">.</div>
-        <svg class="dividing-line" viewBox="0 0 100 10" xmlns="http://www.w3.org/2000/svg">
-          <line x1="0" y1="0" x2="450" y2="0" stroke="white" />
-        
-        </svg>
+      
+      </div>
+      <svg class="dividing-line-2" viewBox="0 0 100 10" xmlns="http://www.w3.org/2000/svg">
+        <line x1="0" y1="0" x2="100" y2="0" stroke="white" />
+      
+      </svg>
         <div class="about-me-list">
        
+        <div class="language">
         <div class="about-me-title-list">
           <div class="rombo"></div>
           <p>Language</p>
@@ -263,7 +288,9 @@
               Css
             </li>
           </ul>
+        </div>
 
+        <div class="frameworks">
           <div class="about-me-title-list">
             <div class="square"></div>
             <p>Frameworks</p>
@@ -285,7 +312,9 @@
               Selenium
             </li>
           </ul>
+        </div>
 
+        <div class="skills">
           <div class="about-me-title-list">
             <div class="circle"></div>
             <p>Skills</p>
@@ -308,18 +337,19 @@
             </li>
           </ul>
         </div>
+      </div>
       </section>
   
 <!-- form-->
       <section class="contact-form">
         <div class="contact-form-title">
-          <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+          I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
         </div>
         <div class="form-container">
-          <form class="contact-form" action="https://formspree.io/f/xzbollge" method="post">
+          <form class="contact-form" id="contact-form" action="https://formspree.io/f/xzbollge" method="post">
             <input name="Full-Name" id="name" type="text" placeholder="Full Name" required><br>
 
-            <svg viewBox="0 0 100 10" xmlns="http://www.w3.org/2000/svg">
+            <svg viewBox="0 0 100 5" xmlns="http://www.w3.org/2000/svg">
               <line x1="0" y1="0" x2="100" y2="0" stroke="#DBD8D7" />
             
             </svg>
@@ -327,15 +357,15 @@
 
             <input name="Email" id="email" type="email" placeholder=" Email address" required><br>
 
-            <svg viewBox="0 0 100 10" xmlns="http://www.w3.org/2000/svg">
+            <svg viewBox="0 0 100 5" xmlns="http://www.w3.org/2000/svg">
               <line x1="0" y1="0" x2="100" y2="0" stroke="#DBD8D7"  />
             </svg>
 
 
-            <textarea id="subject" name="subject" required>Enter Text Here</textarea>
-            <button type="submit">Submit</button><br>
+            <textarea id="subject" name="subject" required>Hello Marianne! Good to see you!</textarea>
+            <button type="submit">Get in touch</button><br>
           </form>
-      </div>
+        </div>
       </section>
 
 
