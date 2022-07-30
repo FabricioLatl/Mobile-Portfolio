@@ -23,15 +23,15 @@
     
              
               <div class="desktop-buttons">
-                <ul class="main-nav-list">
+                <ul class="main-nav-list" id="myTopnav">
                   <li>
-                      <a href="#">Portfolio</a>
+                      <a href="#portfolio">Portfolio</a>
                   </li>
                   <li>
-                      <a href="#">About</a>
+                      <a href="#about">About</a>
                   </li>
                   <li>
-                      <a href="#">Contact</a>
+                      <a href="#contact">Contact</a>
                   </li>
                   <li>
                       <a href="#"><img src="images/mail.svg" alt=""></a>
@@ -45,6 +45,14 @@
 
     </header>
 
+    <div class="pop-up pop" id="pop-menu">
+      <button id="close" onclick="closeWindow()"><img class="img-button" src="./image/cancel-btn.png" alt="Close Window Button" /></button>
+      <ul class="navigation">
+        <li class="nav-tools first-tool" ><a class="the-nav1" href="#work">Portfolio</a></li>
+        <li class="nav-tools"><a class="the-nav2" href="#about_section">About</a></li>
+        <li class="nav-tools hide"><a class="the-nav3" href="#contact">Contact</a></li>
+      </ul>
+    </div>
 
     <section class="body-container">
 
@@ -108,7 +116,7 @@
               Ruby
             </li>
           </ul>
-          <button type="submit" class="see-project-button">See Project</button>
+          <button  id="btn-0" type="button" class="see-project-button">See Project</button>
         </div>
         </div>
         <ul class="recent-works-ul">
@@ -129,7 +137,7 @@
                 Ruby
               </li>
             </ul>
-            <button type="submit" class="see-project-button-full">
+            <button  id="btn-1" type="submit" class="see-project-button-full">
               See Project
             </button>
           </li>
@@ -376,7 +384,7 @@
     
   
 
-    
+      <script src="app.js"></script>
 
 </body>
 </html>

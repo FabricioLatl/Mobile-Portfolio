@@ -451,6 +451,18 @@ input {
 /* DESKTOP VERSION */
 
 @media only screen and (min-width: 1024px) {
+  header {
+    padding: 0 100px;
+  }
+
+  #bars {
+    display: none;
+  }
+
+  .pop-up {
+    display: none;
+  }
+
   body {
     background-color: #1c1a19;
   }
